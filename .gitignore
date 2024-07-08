@@ -139,3 +139,8 @@ dist
 # SvelteKit build / generate output
 .svelte-kit
 
+
+.env*
+.flaskenv*
+!.env.project
+!.env.vault
